@@ -1,6 +1,8 @@
 import React from 'react';
 import Frame527 from '../assets/images/Frame527.png';
 import Frame526 from '../assets/images/Frame526.png';
+import TravelConceptWithDocuments from '../assets/images/TravelConceptWithDocuments.png'; // The image with the passport and plane ticket
+import Frame525 from '../assets/images/Frame525.png'; // The "Discover More" button image
 
 function Home() {
 
@@ -21,6 +23,12 @@ function Home() {
           <img src={Frame526} alt="get started" style={imageStyle} />
         </div>
       </section>
+
+      <section className="discover-more-section">
+        <img src={TravelConceptWithDocuments} alt="Travel Concept with Documents" className="travel-concept-img" />
+        <img src={Frame525} alt="Discover More Button" className="discover-more-button-img" />
+      </section>
+
     </div>
   );
 }
