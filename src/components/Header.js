@@ -34,8 +34,9 @@ function Header() {
               <ul style={menuStyle} >
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/services">Seervices</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/services">Solutions</Link></li>
+                <li><Link to="/services">News & Insights</Link></li>
+                <li><Link to="/contact">Contact Us</Link></li>
               </ul>
             </li>
           </li>

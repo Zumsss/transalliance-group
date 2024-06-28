@@ -62,7 +62,7 @@ main {
 }
 
 .feature {
-  width: 48%; /* Adjust the width as needed */
+  width: 48%; 
 }
 
 .feature-left {
@@ -89,4 +89,187 @@ footer {
   background-color: #333;
   color: white;
   padding: 10px 0;
+}
+
+.home-container {
+  background-color: #122038;
+  
+  position: relative;
+ 
+}
+
+.discover-more-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  
+}
+
+.travel-concept-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.discover-more-button {
+  position: absolute;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  max-width: 50%; 
+  height: auto;
+}
+
+.footer-image {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  width: auto;
+  max-width: 90%; 
+  height: auto;
+}
+
+
+.about-container {
+  background-color: #FFFFFF;
+  
+  position: relative;
+ 
+}
+
+
+.text-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.text-left {
+width: 20%;
+height: 24px;
+top: 4287px;
+left: 109px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 18.65px;
+font-weight: 700;
+line-height: 24.28px;
+letter-spacing: 0.2em;
+color: #858585;
+
+}
+
+.text-right {
+width: 50%;
+height: 151px;
+top: 4240px;
+left: 849px;
+gap: 0px;
+opacity: 0px;
+font-family: Gayathri;
+font-size: 50px;
+/* font-weight: 700; */
+line-height: 78.13px;
+text-align: left;
+color: #122038;
+
+}
+
+
+.text-rightP{
+width: 871px;
+height: 184px;
+top: 4378px;
+left: 852px;
+gap: 0px;
+opacity: 0.8px;
+font-family: DM Sans;
+font-size: 40px;
+font-weight: 400;
+line-height: 46px;
+text-align: left;
+color: #757575;
+
+}
+
+.Frame598{
+  width: 65%;
+  height: 50%;
+margin-top: 300px;
+}
+
+.image48{
+width: 50%;
+height: 50%;
+left: 1208px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.Frame591{
+  width: 70%;
+}
+
+.grid-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item {
+  position: relative;
+  width: 100%;
+  height: 417px;
+  gap: 10px;
+  opacity: 0px;
+  
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.text span {
+  display: block;
+  font-size: 14px;
+  color: #00FF00; 
 }
